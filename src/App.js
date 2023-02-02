@@ -1,13 +1,15 @@
 import logo from "./logo.svg";
 import "./App.css";
-import Add from "./add";
 
 function App() {
+  const name = "小伙纸";
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>小伙纸，你妖了我吧小伙纸</p>
+        <p>
+          {name}，你妖了我吧{name}
+        </p>
         <a
           className="App-link"
           href="https://reactjs.org"

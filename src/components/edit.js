@@ -1,5 +1,9 @@
 const Edit = () => {
-  return <h1>死不死啊jxy</h1>;
+  return (
+    <div className="ad">
+      <img src=""></img>
+    </div>
+  );
 };
 
 export default Edit;

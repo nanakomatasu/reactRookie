@@ -3,7 +3,7 @@ import List from "../list";
 
 const Home = () => {
   return (
-    <div>
+    <div className="main">
       你真牛
       <Edit />
       <List />

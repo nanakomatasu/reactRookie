@@ -1,17 +1,19 @@
 const Edit = () => {
   return <div className="edit">
-    <div className="uname">
-    <p>姓名</p>
-    <input type="text" />
+    <div className="uname" name="uname">
+    <p>时间</p>
+    <input type="date" />
     </div>
-    <div className="uemail">
+    <div className="utime">
     <p>邮箱</p>
-    <input type="email" />
+    <input type="time" name="utime"/>
     </div >
     <div className="textarea">
-    <p>事件记录</p>
-   <textarea name="" id="" cols="30" rows="10">
-   </textarea>
+    <p>事件</p>
+     <input type="text" name="jishi"/>
+    </div>
+    <div className="add">
+      <button >新增</button>
     </div>
      </div>
 };

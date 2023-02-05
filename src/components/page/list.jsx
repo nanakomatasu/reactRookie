@@ -1,13 +1,14 @@
 import Item from "./item";
-const arr = ['1','1','1','1','1','1','1','1'];
 
 const List = () => {
   return (
-    <div>
-      {arr.map((item) => (
-        <ul>{item}</ul>
-      ))}
-    </div>
+    <div className="list">
+          <Item />
+          <Item />
+          <Item />
+          <Item />
+          <Item />
+   </div>
   );
 };
 export default List;

@@ -1,5 +1,6 @@
-import XI from "../page/xiang.jsx";
+import { ReactDOM } from "react";
 import Edit from "../page/edit"
+import List from "../page/list.jsx";
 import "./home.css";
 
 const Home = () => {
@@ -7,7 +8,7 @@ const Home = () => {
     <div className="main">
       <h1>备忘录</h1>
       <Edit />
-      <XI />
+      <List />
     </div>
   );
 }

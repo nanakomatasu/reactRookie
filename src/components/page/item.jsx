@@ -1,12 +1,5 @@
-const Item = () => {
-  return (
-    <ul>
-      <li>1</li>
-      <li>2</li>
-      <li>3</li>
-      <li>4</li>
-    </ul>
-  );
-};
+const Item =() => {
+  return <div className="item"><p>item</p><button className="remove">删除</button></div>
+}
 
-export default Item;
+export default Item

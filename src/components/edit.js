@@ -1,9 +1,5 @@
 const Edit = () => {
-  return (
-    <div className="ad">
-      <img src=""></img>
-    </div>
-  );
+  return <h1>备忘录</h1>;
 };
 
 export default Edit;

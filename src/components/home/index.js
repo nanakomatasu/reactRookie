@@ -1,12 +1,10 @@
-import Edit from "../edit";
-import List from "../list";
+import XI from "../xiang.js";
+import "./home.css";
 
 const Home = () => {
   return (
     <div className="main">
-      你真牛
-      <Edit />
-      <List />
+      <XI />
     </div>
   );
 };

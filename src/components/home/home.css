@@ -4,3 +4,37 @@
   width: 300px;
   height: 300px;
 }
+
+.main h1 {
+  text-align: center;
+}
+.mian li {
+  list-style: none;
+  text-align: left;
+}
+
+.edit {
+  margin-top: 30px;
+}
+
+input {
+  outline: none;
+}
+.edit .uname {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+.edit .uemail {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.edit .textarea {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}

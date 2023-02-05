@@ -1,5 +1,5 @@
 import Item from "./item";
-const arr = [1, 2, 3, 4, 5, 6];
+const arr = ['1','1','1','1','1','1','1','1'];
 
 const List = () => {
   return (

@@ -17,8 +17,8 @@
 input {
   outline: none;
 }
-.edit .uname,
-.utime,
+.edit .date,
+.time,
 .textarea {
   display: flex;
   flex-direction: row;
@@ -46,9 +46,11 @@ input {
 }
 
 .item {
-  padding: 2px 20px;
+  margin: 5px 20px;
+  padding: 3px 0;
   display: flex;
   justify-content: space-between;
+  border-bottom: 1px solid #333;
 }
 
 .item .remove {

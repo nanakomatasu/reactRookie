@@ -1,13 +1,11 @@
 import Item from "./item";
 
-const List = () => {
+const List = ({lista}) => {
   return (
     <div className="list">
-          <Item />
-          <Item />
-          <Item />
-          <Item />
-          <Item />
+          {
+            lista.map(item => <Item key={item.id}/>)
+          }
    </div>
   );
 };

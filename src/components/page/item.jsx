@@ -1,8 +1,13 @@
 
-const Item =({date,time,text}) => {
+const Item =({key,id,date,time,text,deletItem}) => {
+  function deleteI(){
+       deletItem(function(prev){
+        return prev.filter(item => item.id !== id)
+       })
+  }
   return <div className="item">
-           <div><span>{text}</span><span>{date}{time}</span></div>
-    <button className="remove">删除</button>
+           <div><p>{text}</p>   <p>{date}{time}</p></div>
+    <button onClick={deleteI} className="remove">删除</button>
     </div>
 }
 

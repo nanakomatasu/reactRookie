@@ -10,7 +10,7 @@ const Home = () => {
     <div className="main">
       <h1>备忘录</h1>
       <Edit add = {setA}/>
-      <List  lista={a}/>
+      <List  lista={a} deletItem={setA}/>
     </div>
   );
 }

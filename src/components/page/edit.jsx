@@ -1,10 +1,9 @@
 import { useState } from "react";
 import Item from './item'
+import { v4 } from "uuid";
 
 const Edit = ({add}) => {
-  function addItem(){
-   add([1,2,3,4])
-  }
+  
   const [date,setDate] = useState('')
   function changeDate(e){
         setDate(e.target.value)
@@ -18,6 +17,13 @@ const Edit = ({add}) => {
   function changeText(e){
     setText(e.target.value)
   }
+  function addItem(){
+    add(function(prevData){
+      return [...prevData,{
+        id:v4(),date,time,text
+      }]
+    })
+   }
   return <div className="edit">
      <div className="date" name="date">
     <p>日期</p>
